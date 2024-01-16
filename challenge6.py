@@ -5,7 +5,7 @@
 # Get user input & test
 string = input("Enter string to process: ")
 
-char = input("Enter character to tabuate: ")
+char = input("Enter character to tabulate: ")
 
 
 def count_character(string, char):
