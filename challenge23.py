@@ -7,7 +7,7 @@ def does_key_exist(key):
     if dic.get(key) == None:
         print("The key you entered IS NOT in the dictionary!")
     else:
-        print("The ke you entered IS in the dictionary!")
+        print("The key you entered IS in the dictionary!")
 
 
 key = input("Enter key to verify existence: ")
