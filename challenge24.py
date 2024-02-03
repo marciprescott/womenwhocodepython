@@ -12,7 +12,9 @@ def remove_vowels(string):
     return result
 
 
-string_to_check = input("Enter string to remove values: ")
+string_to_check = input(
+    "Enter string you want the vowels removed from: (First function) "
+)
 output_string = remove_vowels(string_to_check)
 print(output_string)
 
@@ -25,14 +27,14 @@ def vowels_gone(string):
     return result
 
 
-input_string = input("Enter string to remove vowels from: ")
+input_string = input(
+    "Enter string you want the vowels removed from (second function): "
+)
 output_string = vowels_gone(input_string)
 print(output_string)
 
 
 # Finally using regular expressions because I haven't used them in a long while!
-
-
 def consonants_only(string):
 
     x = re.findall("[^aeiouAEIOU]", string)
@@ -40,6 +42,6 @@ def consonants_only(string):
     return x
 
 
-string = input("Enter string to replace with consonants only:  ")
+string = input("Enter string to replace with consonants only (third function):  ")
 output_string = consonants_only(string)
 print(output_string)
