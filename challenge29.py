@@ -2,9 +2,6 @@
 
 import random
 
-# Given lower and upper limits from start to end and store in a list
-# Using random.randrange
-
 
 def random_integers(start_num, end_num, num):
     result = []
