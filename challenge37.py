@@ -1,9 +1,5 @@
 """A program to iterate through a dictionary & print its keys and values"""
 
-import unittest
-from unittest.mock import patch
-from io import StringIO
-
 
 def dict_iterate(dict1):
 
