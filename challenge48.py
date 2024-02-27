@@ -22,8 +22,12 @@ def replace_with_synonyms(text, words_to_replace):
         return text
 
 
-text = input("Enter text to replace: ")
-words_to_replace = input("Enter words to replace: ")
+text = "Learning to code is hard, I put quite a bit of time into the process."
 
-print("Original text: ", text)
-print("Text with synonyms replaced: ", replaced_text)
+words_to_replace = {"hard"}
+replaced_text = replace_with_synonyms(text, words_to_replace)
+print("Original text:", text)
+print("Text with synonyms replaced:", replaced_text)
+
+# Result  = Original text: Learning to code is hard, I put quite a bit of time into the process.
+# Text with synonyms replaced: Learning to code is backbreaking, I put quite a bit of time into the process.
