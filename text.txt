@@ -1,0 +1,22 @@
+def my_function(param1, param2):
+    """Short description of the function.
+
+    Longer, more detailed description of what the function does, including information about parameters,
+    return values, exceptions raised, side effects, and any other relevant details.
+
+    Args:
+        param1 (type): Description of parameter 1.
+        param2 (type): Description of parameter 2.
+
+    Returns:
+        return_type: Description of the return value.
+
+    Raises:
+        ExceptionType: Description of when and why this exception might be raised.
+
+    Example:
+        An example of how to use this function.
+        
+    """
+    # Function body
+    pass

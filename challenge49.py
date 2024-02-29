@@ -5,12 +5,6 @@ greater than the second, we swap them. It continues this
 process until the end of the array, with the largest 
 elements “bubbling” to the top."""
 
-
-# Start with an unsorted list.
-# Compare the first two elements.
-# Assess the second and third elements.
-# Complete the first pass and evaluate the list.
-# Continue making passes until fully sorted.
 def bubble(list_a):
     # Can't perform comparision on last number of list so we use list - 1
     indexing_length = len(list_a) - 1
@@ -21,7 +15,7 @@ def bubble(list_a):
     while not sorted:
         sorted = True
         for i in range(0, indexing_length):
-            # Do comparision if val to left is greater than value to right
+            # Do comparision if value to left is greater than value to right
             if list_a[i] > list_a[i + 1]:
                 sorted = False
                 # Flip the items

@@ -5,8 +5,8 @@ def is_sorted(lst):
     # enumerate(lst[:-1]) allows iterating over
     # the list lst excluding the last element,
     # as we're comparing each element with the next one.
-    # Within the loop, index holds the index of cur element,
-    # and value holds the value of the cur element.
+    # Within the loop, index holds the index of current element,
+    # and value holds the value of the current element.
     for index, value in enumerate(lst[:-1]):
         if value > lst[index + 1]:
             return False

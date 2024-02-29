@@ -10,4 +10,4 @@ def concatenate(list_1, list2):
 ages = [19, 26, 29]
 languages = ["Python", "Swift", "C++"]
 # Call the function
-print(concatenate(ages, languages))
+print(concatenate(ages, languages)

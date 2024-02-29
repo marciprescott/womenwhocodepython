@@ -1,6 +1,5 @@
 """A function to check if a number is a prime number"""
 
-
 def is_prime(number):
     # Check if the number is less than 2
     if number < 2:

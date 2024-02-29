@@ -16,6 +16,15 @@ def is_anagram(s1, s2):
     else:
         return False
 
+def is_anagram_1(s, t):
+    if len(s) != len(t):
+        return False
+    countS, countT = {}, {}
+    for i in range(len(s)):
+        # Count occurrences of character in stringS
+        countS[s[i]] = countS.get(s[i], 0)
+        # Count occurrences of character in stringT
+        countT[t[i]] = countT.get(t[i], 0)
 
 class TestIsAnagram(unittest.TestCase):
 

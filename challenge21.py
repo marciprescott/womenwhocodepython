@@ -22,7 +22,7 @@ list_of_things = [
     "plate",
 ]
 list_of_things = set(list_of_things)
-element_to_remove = input("Enter element from list to remove: ")
+element_to_remove = input("Enter element from set to remove: ")
 
 remove_element(list_of_things, element_to_remove)
 print(

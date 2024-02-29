@@ -35,6 +35,8 @@ for key, value in words.items():
     if value > max_num:
         max_num = value
         most_common_word = key
-
+    x = words.items()
+print(x)
 print("The most common word is: ", most_common_word)
 print("With a count of: ", max_num)
+"""Outputs: """
