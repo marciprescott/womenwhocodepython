@@ -1,3 +1,3 @@
 # womenwhocodepython
 60 day Women Who Code Python Challenge
-I am participating in a 60 day challenge in Python for Women Who Code for practice and connections. I will post my daily progress to this repository.
+To those that are using this repo to increase their skills and do the daily challenges, each challenge is posted as a comment in the first line of code.  Copy the challenge into your code editor and go to work solving it.  Check back to see how I solved it and share with me on LinkedIn your results using #60daywomenwhocodepythonchallenge.  
